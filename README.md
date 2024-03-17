@@ -33,7 +33,7 @@ The Siamese neural network architecture consists of convolutional layers followe
 
 ### Training and Validation Loss
 
-![Training and Validation Loss](images/loss.png)
+![Training and Validation Loss](images/Loss.png)
 
 This graph shows the training and validation loss over epochs during the training process. Lower loss values indicate better performance of the model.
 
