@@ -45,7 +45,7 @@ This graph illustrates the training and validation accuracy over epochs. Higher 
 
 ### ROC Curve
 
-![ROC Curve](images/roc curve.png)
+![ROC Curve](images/roccurve.png)
 
 The Receiver Operating Characteristic (ROC) curve plots the true positive rate against the false positive rate for various threshold settings. It helps visualize the performance of the model in binary classification tasks.
 
