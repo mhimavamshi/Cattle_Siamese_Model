@@ -1,0 +1,15 @@
+Epoch 5/15
+1093/1093 [==============================] - ETA: 0s - loss: 0.3174 - accuracy: 0.9702
+Epoch 5: val_loss improved from 0.52238 to 0.29746, saving model to cowMuzzleSiameseModel
+1093/1093 [==============================] - 807s 738ms/step - loss: 0.3174 - accuracy: 0.9702 - val_loss: 0.2975 - val_accuracy: 0.9444
+Epoch 6/15
+1093/1093 [==============================] - ETA: 0s - loss: 0.2023 - accuracy: 0.9781
+Epoch 6: val_loss improved from 0.29746 to 0.26173, saving model to cowMuzzleSiameseModel
+1093/1093 [==============================] - 807s 738ms/step - loss: 0.2023 - accuracy: 0.9781 - val_loss: 0.2617 - val_accuracy: 0.9396
+Epoch 7/15
+1093/1093 [==============================] - ETA: 0s - loss: 0.1559 - accuracy: 0.9838
+...
+Epoch 15/15
+1093/1093 [==============================] - ETA: 0s - loss: 0.0730 - accuracy: 0.9943
+Epoch 15: val_loss did not improve from 0.17044
+1093/1093 [==============================] - 799s 731ms/step - loss: 0.0730 - accuracy: 0.9943 - val_loss: 0.2537 - val_accuracy: 0.9317

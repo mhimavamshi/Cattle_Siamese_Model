@@ -1,0 +1,22 @@
+Model: "cowMuzzleSiameseModel"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ imageInput1 (InputLayer)    [(None, 224, 224, 3)]        0         []                            
+                                                                                                  
+ imageInput2 (InputLayer)    [(None, 224, 224, 3)]        0         []                            
+                                                                                                  
+ imageEncoder (Sequential)   (None, 500)                  5333740   ['imageInput1[0][0]',         
+                                                                     'imageInput2[0][0]']         
+                                                                                                  
+ cosineSimilarityMetric (La  (None, 1)                    0         ['imageEncoder[0][0]',        
+ mbda)                                                               'imageEncoder[1][0]']        
+                                                                                                  
+ siameseOutput (Dense)       (None, 2)                    4         ['cosineSimilarityMetric[0][0]
+                                                                    ']                            
+                                                                                                  
+==================================================================================================
+Total params: 5333744 (20.35 MB)
+Trainable params: 5328952 (20.33 MB)
+Non-trainable params: 4792 (18.72 KB)
+__________________________________________________________________________________________________
