@@ -9,15 +9,20 @@ To run this code, make sure you have Python installed. Install the required depe
 
 ```bash
 pip install -r requirements.txt
-
-
+```
 To use this code, follow these steps:
 
 
 ## Useage
-1) Clone the repository : 
+1) Clone the repository :
+  ```bash
   git clone https://github.com/your_username/cow-muzzle-siamese.git
-2) Install dependencies : 
+```
+3) Install dependencies :
+```bash
   pip install -r requirements.txt
-3) Run the main script :
+```
+5) Run the main script :
+```bash
   python main.py
+```
