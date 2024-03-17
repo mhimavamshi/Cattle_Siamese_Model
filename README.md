@@ -1,4 +1,4 @@
-# Project Name
+# Siamese Network for cattle identification
 
 ## Description
 This project implements a Siamese neural network for image similarity comparison of various cattle mainly focussing on cows using TensorFlow and Keras.
@@ -26,3 +26,12 @@ To use this code, follow these steps:
 ```bash
   python main.py
 ```
+## Model Architecture
+The Siamese neural network architecture consists of convolutional layers followed by fully connected layers. The model takes pairs of muzzle images, processes them through the encoder, calculates the cosine similarity between their embeddings, and outputs a binary classification result.
+
+## Training
+To train the model, run the training script and specify the dataset path. Adjust hyperparameters as needed.
+
+## Evaluation
+After training, evaluate the model using the provided test dataset. Interpret accuracy, loss, and ROC curve results to assess model performance.
+
