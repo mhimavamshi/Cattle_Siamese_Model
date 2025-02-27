@@ -21,12 +21,6 @@ This graph shows the training and validation loss over epochs during the trainin
 
 This graph illustrates the training and validation accuracy over epochs. Higher accuracy values indicate better performance of the model in classifying muzzle images.
 
-### ROC Curve
-
-![ROC Curve](images/roc_curve.png)
-
-The Receiver Operating Characteristic (ROC) curve plots the true positive rate against the false positive rate for various threshold settings. It helps visualize the performance of the model in binary classification tasks.
-
 ## Training Details
 
 - **Number of Epochs**: 15
